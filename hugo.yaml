@@ -98,8 +98,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: true
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -262,34 +262,24 @@ params:
     # title: "Custom Name"
     items:
       - title: Operating System
-        content: Minimal x86 operating system witth text, sound, keyboard input, and various technical features.
+        content: Minimal x86 operating system with text, sound, keyboard input, and various technical features.
         image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
         badges:
           - "C"
           - "x86 assembly"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/NedKaleb/os
 
       - title: Tree
         content: Game made using a microcontroller where you have to keep a plant alive by controlling the real temperature and light level.
         image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
         badges:
           - "C"
           - "STM32"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/NedKaleb/tree
 
   #Contact
   contact:
@@ -313,11 +303,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/NedKaleb
 
   # List pages like blogs and posts
   listPages:
